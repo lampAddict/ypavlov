@@ -1,0 +1,423 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Helvetica,Arial,sans-serif;
+    overflow: hidden;
+}
+
+#page
+{
+	background: white;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 955px;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 10px 0px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 2px solid #FF6600;
+    min-width: 1021px;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	font-family: "Century Gothic",sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+	border-top: 2px solid #333333;
+	margin: 0 20px;
+    min-width: 1021px;
+}
+
+#mainmenu ul
+{
+    width: 737px;
+	padding:6px 20px 5px 0px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#333333;
+	background-color:transparent;
+	text-decoration:none;
+	padding:5px 20px 5px 0px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #FF6600;
+	background-color: #ffffff;
+	text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+
+img.social{
+	margin: 0px 6px 0px 0px;
+	width:17px;
+	height:17px;
+}
+
+div.private_menu{
+	width:250px;
+	float:left
+}	
+div.private_menu div.menu_item{
+	float:left;
+	margin:0px 0px 10px 0;
+}
+div.private_menu div.menu_item a{
+	text-decoration:none;
+	background-color:transparent;
+}
+div.private_menu div a:hover, div.private_menu div a.active{
+	color: #FF6600;
+	background-color: #ffffff;
+	text-decoration:none;
+}
+div.landing{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    cursor:pointer;
+}
+div.frame{
+    display:block;
+    height: 613px;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #FF6600;
+    margin: 0px 20px;
+    margin-top: 77px;
+}
+div.frame img.logo{
+    display:block;
+    margin:250px auto;
+}
+table.menu{
+    max-width: 1062px;
+}
+table.menu td{
+    vertical-align: middle;
+    padding: 4px 0;
+    min-width: 180px;
+    white-space: nowrap;
+}
+.textBold{
+    font-family: "Century Gothic",sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #333333;
+    float:left;
+}
+table.menu td a{
+    text-decoration: none;
+}
+table.menu td.active a{
+    color: #ff6600;
+}
+table.menu td a:hover{
+    color: #ff6600;
+}
+div.imgyp, div.indeximg{
+    float: left;
+    height: 100%;
+    padding:0;
+}
+div.leftcol, div.rightcol, div.newsblock{
+    float: left;
+    height: 100%;
+    padding: 0 0 30px 95px;
+    font-family: "Century Gothic",sans-serif;
+    font-size: 9pt;
+    color: #000000;
+}
+div.leftcol{
+    width: 600px;
+}
+div.rightcol{
+    width: 800px;
+    margin-left: 86px;
+}
+div.newsblock{
+    width: 100%;
+    margin-left: 86px;
+}
+div.indeximg{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+.shadow{
+    box-shadow: 15px 15px 20px 0px rgba(94, 92, 92, 0.6);
+}
+.mail{
+    float:left;
+    width:50%;
+    text-align:right;
+    font-family: "Century Gothic";
+    font-size: 9pt;
+    color: #000000;
+}
+div.preview{
+    float:left;
+    margin:0 0 0 50px;
+    box-shadow: 10px 10px 15px #787878;
+}
+div.close{
+    float:right;
+    background:url('../images/closeBtn.png') 0 0 no-repeat;
+    width: 28px;
+    height: 30px;
+    display:none;
+    z-index: 100;
+    position: relative;
+    cursor: pointer;
+}
+img.galContainer{
+    display:block;
+    margin:0 auto;
+    position: relative;
+    z-index: 99;
+    box-shadow: 10px 10px 15px #787878;
+}
+div.gallery{
+    position:absolute;
+    top: 166px;
+    left: 353px;
+    width:700px;
+    z-index:888;
+    background-color: transparent;//#777777;
+    display:none;
+}
+img.la{
+    float:left;
+    width: 50px;
+    height: 50px;
+    display:none;
+    z-index: 100;
+    position: relative;
+    cursor: pointer;
+}
+img.ra{
+    float:right;
+    width: 50px;
+    height: 50px;
+    display:none;
+    z-index: 100;
+    position: relative;
+    cursor: pointer;
+}
+img.ra:hover, img.la:hover{
+}
+div.info{
+    display: none;
+}
+div.info_view{
+    display: block;
+    font-family: "Century Gothic",sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+    color: #ff6600;
+    margin-top: 10px;
+    float:left;
+}
+div.private_menu div.menu_item a.inactive{
+    color:#778899;
+    cursor: default;
+    background-color: #ffffff;
+    text-decoration:none;
+    font-weight: bold;
+}
+div.private_menu div.menu_item a.inactive:hover{
+    color:#778899;
+    cursor: default;
+    background-color: #ffffff;
+    text-decoration:none;
+    font-weight: bold;
+}
