@@ -39,7 +39,15 @@ class SiteController extends Controller
 	public function actionPrivate_interior(){
 		$this->render('private_interior');
 	}
-	
+
+    public function actionProjects(){
+        $this->render('projects');
+    }
+
+    public function actionPartners(){
+        $this->render('partners');
+    }
+
 	/**
 	 * This is the action to handle external exceptions.
 	 */
@@ -59,6 +67,7 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
+        /*
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
@@ -78,6 +87,8 @@ class SiteController extends Controller
 			}
 		}
 		$this->render('contact',array('model'=>$model));
+        */
+        $this->render('contact');
 	}
 
 	/**
