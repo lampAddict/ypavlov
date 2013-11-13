@@ -1562,3 +1562,58 @@ Stack trace:
 REQUEST_URI=/index.php?r=site/projects
 HTTP_REFERER=http://yparch/index.php?r=site/contact
 ---
+2013/11/12 23:51:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "projects".' in C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php(270): CController->missingAction('projects')
+#1 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(282): CController->run('projects')
+#2 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/projects')
+#3 C:\OpenServer\domains\localhost\ypavlov\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\ypavlov\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ypavlov/index.php?r=site/projects
+HTTP_REFERER=http://localhost/ypavlov/index.php?r=site/public_interior&show=hcred
+---
+2013/11/12 23:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "partners".' in C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php(270): CController->missingAction('partners')
+#1 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(282): CController->run('partners')
+#2 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/partners')
+#3 C:\OpenServer\domains\localhost\ypavlov\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\ypavlov\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ypavlov/index.php?r=site/partners
+HTTP_REFERER=http://localhost/ypavlov/index.php?r=site/projects
+---
+2013/11/12 23:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "partners".' in C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php(270): CController->missingAction('partners')
+#1 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(282): CController->run('partners')
+#2 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/partners')
+#3 C:\OpenServer\domains\localhost\ypavlov\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\ypavlov\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ypavlov/index.php?r=site/partners
+HTTP_REFERER=http://localhost/ypavlov/index.php?r=site/contact
+---
+2013/11/12 23:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "projects".' in C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php(270): CController->missingAction('projects')
+#1 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(282): CController->run('projects')
+#2 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/projects')
+#3 C:\OpenServer\domains\localhost\ypavlov\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\ypavlov\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ypavlov/index.php?r=site/projects
+HTTP_REFERER=http://localhost/ypavlov/index.php?r=site/partners
+---
+2013/11/12 23:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "partners".' in C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CController.php(270): CController->missingAction('partners')
+#1 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(282): CController->run('partners')
+#2 C:\OpenServer\domains\localhost\ypavlov\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/partners')
+#3 C:\OpenServer\domains\localhost\ypavlov\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\localhost\ypavlov\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ypavlov/index.php?r=site/partners
+HTTP_REFERER=http://localhost/ypavlov/index.php?r=site/contact
+---
