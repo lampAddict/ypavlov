@@ -166,4 +166,17 @@ class InnerView implements IView{
     <?
     }
 }
+
+class AdminView extends Admin implements IView{
+
+    private $page;
+
+    public function __construct($page){
+        $this->page = $page;
+    }
+
+    public function view(){
+
+    }
+}
 ?>
