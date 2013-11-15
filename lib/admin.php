@@ -6,8 +6,8 @@ class Admin {
     private $data_filename = 'data/data.xml';
     private $data_fields = array('key','name','info','num_images');
 
-    public function readXML(){
-        $this->data = simplexml_load_file($this->data_filename);
+    public function readXML($filename){
+        $this->data = simplexml_load_file($filename);
         var_dump($this->data);
     }
 

@@ -6,6 +6,7 @@
  */
 
 include_once('interfaces.php');
+include_once('admin.php');
 
 class InnerView implements IView{
 
@@ -169,14 +170,18 @@ class InnerView implements IView{
 
 class AdminView extends Admin implements IView{
 
-    private $page;
-
-    public function __construct($page){
-        $this->page = $page;
+    public function __construct(){
     }
 
-    public function view(){
+    private $site_menu = array();
 
+    public function view(){
+        $this->site_menu = $this->readXML('data/site.xml');
+        ?>
+            <form action="" method="POST">
+                <input type="text" name="cat" value="1"/>
+            </form>
+        <?
     }
 }
 ?>
