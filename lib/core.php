@@ -173,15 +173,43 @@ class AdminView extends Admin implements IView{
     public function __construct(){
     }
 
-    private $site_menu = array();
-
     public function view(){
-        $this->site_menu = $this->readXML('data/site.xml');
-        ?>
-            <form action="" method="POST">
-                <input type="text" name="cat" value="1"/>
-            </form>
-        <?
+        $this->readXML('data/site.xml');
+        if( $this->data ){
+
+            $url = Yii::app()->request->url;
+            $url_parts = explode('&', $url);
+            if( is_array($url_parts) ){
+                $url = $url_parts[0];
+            }
+
+            foreach( $this->data->sections->section as $section ){
+                //var_dump($section);
+                echo '  <div class="alink">
+                            <a href="'.$url.'&edit='.$section['id'].'">'.$section->name.'</a>
+                        </div>';
+
+                if( isset($_GET['edit']) && intval($_GET['edit']) == $section['id'] ){
+                    echo '<form action="" method="POST">';
+                    switch( $section['type'] ){
+                        case 'text':
+                            echo '    <div>
+                                        <textarea name="content">
+                                        '.$section->content.'
+                                        </textarea>
+                                      </div>';
+                            break;
+
+                    }
+                    echo '<input type="submit" value="Сохранить"/></form>';
+                }
+
+            }
+
+            if( !empty($_POST) ){
+                var_dump($_POST);
+            }
+        }
     }
 }
 ?>

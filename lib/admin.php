@@ -3,12 +3,12 @@
 class Admin {
 
     public  $data;
-    private $data_filename = 'data/data.xml';
+
+    private $data_filename = 'data/site.xml';
     private $data_fields = array('key','name','info','num_images');
 
     public function readXML($filename){
         $this->data = simplexml_load_file($filename);
-        var_dump($this->data);
     }
 
     public function saveXML(){

@@ -421,3 +421,13 @@ div.private_menu div.menu_item a.inactive:hover{
     text-decoration:none;
     font-weight: bold;
 }
+div.alink{
+    margin: 10px 0;
+}
+div.alink a{
+    text-decoration: none;
+    border-bottom: 1px dashed #333333;
+}
+div.alink a:hover{
+    color: #ff6600;
+}

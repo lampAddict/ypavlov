@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <site>
-    <menu>
-        <menu_item id="1">
-        <name>общественные интерьеры</name>
-        </menu_item>
-        <menu_item id="2">
-            <name>частные интерьеры</name>
-        </menu_item>
-        <menu_item id="3">
-            <name>проекты</name>
-        </menu_item>
-        <menu_item id="4">
-            <name>партнеры</name>
-        </menu_item>
-        <menu_item id="5">
-            <name>контакты</name>
-        </menu_item>
-    </menu>
     <sections>
         <section id="0" type="text">
             <name>
