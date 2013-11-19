@@ -170,10 +170,27 @@ class InnerView implements IView{
 
 class AdminView extends Admin implements IView{
 
-    public function __construct(){
+    private $params;
+
+    public function __construct($data=null){
+        $this->params = $data;
     }
 
     public function view(){
+
+        //save changes to xml
+        if( !empty($this->params) ){
+            $this->readXML('data/site.xml');
+            foreach( $this->data->sections->section as $section ){
+                if( is_numeric($this->params['id']) && $this->params['id'] == $section['id'] ){
+                    $section->content = $this->params['editor'];
+                }
+            }
+
+            $this->saveXML($this->data);
+        }
+
+        //read xml data file
         $this->readXML('data/site.xml');
         if( $this->data ){
 
@@ -183,32 +200,34 @@ class AdminView extends Admin implements IView{
                 $url = $url_parts[0];
             }
 
+            //render admin sections
             foreach( $this->data->sections->section as $section ){
                 //var_dump($section);
                 echo '  <div class="alink">
                             <a href="'.$url.'&edit='.$section['id'].'">'.$section->name.'</a>
                         </div>';
 
-                if( isset($_GET['edit']) && intval($_GET['edit']) == $section['id'] ){
+                if( is_numeric($this->params) && $this->params == $section['id'] ){
                     echo '<form action="" method="POST">';
                     switch( $section['type'] ){
                         case 'text':
                             echo '    <div>
-                                        <textarea name="content">
+                                        <input type="hidden" name="id" value="'.$section['id'].'"/>
+                                        <textarea name="editor" >
                                         '.$section->content.'
                                         </textarea>
+                                        <script>
+                                            CKEDITOR.replace( "editor",{width:1021} );
+                                        </script>
                                       </div>';
                             break;
 
                     }
-                    echo '<input type="submit" value="Сохранить"/></form>';
+                    echo '<input class="submit" type="submit" value="Сохранить"/></form>';
                 }
 
             }
 
-            if( !empty($_POST) ){
-                var_dump($_POST);
-            }
         }
     }
 }

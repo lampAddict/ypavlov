@@ -127,6 +127,13 @@ class SiteController extends Controller
 	}
 
     public function actionAdmin(){
-        $this->render('admin');
+
+        if( !empty($_POST) ){
+            $this->render('admin', array('params'=>$_POST));
+        }
+        elseif( isset($_GET['edit']) )
+            $this->render('admin', array('params'=>intval($_GET['edit'])));
+        else
+            $this->render('admin');
     }
 }

@@ -431,3 +431,7 @@ div.alink a{
 div.alink a:hover{
     color: #ff6600;
 }
+input.submit{
+    margin: 10px 0;
+    padding: 3px 5px;
+}
