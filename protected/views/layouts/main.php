@@ -1,4 +1,11 @@
-<?php /* @var $this Controller */ ?>
+<?php
+/* @var $this Controller */
+include_once('lib/admin.php');
+
+$admin = new Admin();
+global $menu;
+$menu = $admin->get_menu_items();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -33,16 +40,35 @@
     function check_active_menu_link($get, $key){
         return (isset($get['r']) && ($get['r'] == $key) ? 'class="active"' : '');
     }
+    function show_menu_item($index){
+        global $menu;
+        if( isset($menu[$index]) )
+            return $menu[$index];
+        else
+            return 'Menu build fail';
+    }
     ?>
 	<div id="mainmenu">
         <table class="menu">
             <tr>
-                <td <?= check_active_menu_link($_GET, 'site/index') ?>><a class="textBold" href="index.php?r=site/index">о мастерской</a></td>
-                <td <?= check_active_menu_link($_GET, 'site/public_interior') ?> style="text-align:center"><a class="textBold" href="index.php?r=site/public_interior" style="margin-right: 60px;">общественные интерьеры</a></td>
-                <td <?= check_active_menu_link($_GET, 'site/private_interior') ?> style="text-align:center"><a class="textBold" href="index.php?r=site/private_interior" style="margin-left: 34px;" >частные интерьеры</a></td>
-                <td <?= check_active_menu_link($_GET, 'site/projects') ?> style="text-align:center"><a class="textBold" href="index.php?r=site/projects"  style="margin-left: 76px;">проекты</a></td>
-                <td <?= check_active_menu_link($_GET, 'site/partners') ?> style="text-align:center"><a class="textBold" href="index.php?r=site/partners" style="margin-left: 33px;">партнёры</a></td>
-                <td <?= check_active_menu_link($_GET, 'site/contact') ?> style="text-align:right"><a class="textBold" href="index.php?r=site/contact" style="margin-right: 142px;">контакты</a></td>
+                <td <?= check_active_menu_link($_GET, 'site/index') ?>>
+                    <a class="textBold" href="index.php?r=site/index"><?=show_menu_item(0)?></a>
+                </td>
+                <td <?= check_active_menu_link($_GET, 'site/public_interior') ?> style="text-align:center">
+                    <a class="textBold" href="index.php?r=site/public_interior" style="margin-right: 60px;"><?=show_menu_item(1)?></a>
+                </td>
+                <td <?= check_active_menu_link($_GET, 'site/private_interior') ?> style="text-align:center">
+                    <a class="textBold" href="index.php?r=site/private_interior" style="margin-left: 34px;" ><?=show_menu_item(2)?></a>
+                </td>
+                <td <?= check_active_menu_link($_GET, 'site/projects') ?> style="text-align:center">
+                    <a class="textBold" href="index.php?r=site/projects"  style="margin-left: 76px;">проекты</a>
+                </td>
+                <td <?= check_active_menu_link($_GET, 'site/partners') ?> style="text-align:center">
+                    <a class="textBold" href="index.php?r=site/partners" style="margin-left: 33px;">партнёры</a>
+                </td>
+                <td <?= check_active_menu_link($_GET, 'site/contact') ?> style="text-align:right">
+                    <a class="textBold" href="index.php?r=site/contact" style="margin-right: 142px;">контакты</a>
+                </td>
             </tr>
         </table>
 		<?php

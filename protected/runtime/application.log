@@ -19,3 +19,33 @@ REQUEST_URI=/index.php?r=site/public_interior
 in C:\_stuff\OpenServer\domains\yparch\lib\core.php (170)
 in C:\_stuff\OpenServer\domains\yparch\protected\views\site\public_interior.php (8)
 in C:\_stuff\OpenServer\domains\yparch\protected\controllers\SiteController.php (36)
+2013/11/20 12:10:33 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.page_content" is not defined.' in C:\_stuff\OpenServer\domains\yparch\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\_stuff\OpenServer\domains\yparch\protected\views\site\index.php(32): CComponent->__get('page_content')
+#1 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CBaseController.php(126): require('C:\_stuff\OpenS...')
+#2 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\_stuff\OpenS...', NULL, true)
+#3 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\_stuff\OpenS...', NULL, true)
+#4 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\_stuff\OpenServer\domains\yparch\protected\controllers\SiteController.php(32): CController->render('index')
+#6 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#11 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#12 C:\_stuff\OpenServer\domains\yparch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\_stuff\OpenServer\domains\yparch\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://yparch/index.php?r=site/index
+---
+2013/11/20 12:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "фвьшт".' in C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php(270): CController->missingAction('??????????')
+#1 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CWebApplication.php(282): CController->run('??????????')
+#2 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/??????????')
+#3 C:\_stuff\OpenServer\domains\yparch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\_stuff\OpenServer\domains\yparch\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/%D1%84%D0%B2%D1%8C%D1%88%D1%82
+---

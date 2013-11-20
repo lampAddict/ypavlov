@@ -180,10 +180,15 @@ class AdminView extends Admin implements IView{
 
         //save changes to xml
         if( !empty($this->params) ){
-            $this->readXML('data/site.xml');
+            $this->readXML();
             foreach( $this->data->sections->section as $section ){
+                //try upfate appropriate data section
                 if( is_numeric($this->params['id']) && $this->params['id'] == $section['id'] ){
                     $section->content = $this->params['editor'];
+                    if( isset($this->params['sname']) && $this->params['sname'] != '' && $this->params['sname'] != ' ' && trim($this->params['sname']) != $section->name ){
+                        $section->name = $this->params['sname'];
+                    }
+                    break;
                 }
             }
 
@@ -212,6 +217,7 @@ class AdminView extends Admin implements IView{
                     switch( $section['type'] ){
                         case 'text':
                             echo '    <div>
+                                        <input style="margin-left:0" type="text" name="sname" value="'.(string)$section->name.'"/>
                                         <input type="hidden" name="id" value="'.$section['id'].'"/>
                                         <textarea name="editor" >
                                         '.$section->content.'
@@ -220,6 +226,18 @@ class AdminView extends Admin implements IView{
                                             CKEDITOR.replace( "editor",{width:1021} );
                                         </script>
                                       </div>';
+                            break;
+                        case 'img':
+                            echo '    <div style="margin:5px 0; padding:3px 0; border-bottom:1px solid #778899">
+                                        <input style="margin-left:0" type="text" name="sname" value="'.(string)$section->name.'"/>
+                                        <input type="hidden" name="id" value="'.$section['id'].'"/>
+                                      </div>';
+                            foreach($section->content->imglist as $project){
+                                echo '  <div>
+                                            <input type="hidden" name="pid" value="'.$project['id'].'"/>
+                                            <input style="margin-left:0" type="text" name="pname" value="'.$project->name.'"/>
+                                        </div>';
+                            }
                             break;
 
                     }
