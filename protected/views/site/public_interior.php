@@ -7,7 +7,7 @@ $this->breadcrumbs=array(
 */
 include_once 'lib/core.php';
 
-$img_dir='public';
+$img_dir='public_interior';
 
 $default_active_menu_item = 'homnet';
 

@@ -232,11 +232,26 @@ class AdminView extends Admin implements IView{
                                         <input style="margin-left:0" type="text" name="sname" value="'.(string)$section->name.'"/>
                                         <input type="hidden" name="id" value="'.$section['id'].'"/>
                                       </div>';
+
+                            $prefix = array(1=>'',2=>'c',3=>'f');
+                            $pic_name = array(1=>'чб превью',2=>'цветная превью',3=>'полноразмерная');
                             foreach($section->content->imglist as $project){
-                                echo '  <div>
+                                echo '  <div style="float:left; border-bottom:1px solid #555555; padding: 5px 0">
                                             <input type="hidden" name="pid" value="'.$project['id'].'"/>
-                                            <input style="margin-left:0" type="text" name="pname" value="'.$project->name.'"/>
-                                        </div>';
+                                            <div style="width:100%; float:left;">
+                                                <input style="margin-left:0;" type="text" name="pname" value="'.$project->name.'"/>
+                                                <input style="margin-left:0;" type="text" name="pinfo" value="'.$project->info.'"/>
+                                            </div>';
+
+                                for($i=1; $i<=$project->numimg; $i++){
+                                    echo '  <div style="float:left; padding: 5px 0;"><span>'.$i.'.</span><input style="margin-left:0; float:left; width:100%" type="file" name="img'.$i.'" value=""/>';
+                                    for( $j=1; $j<=3; $j++){
+                                        echo '<img style="width:100px; height:200px; float:left; border:1px solid white" src="images/'.(string)$section['page'].'/'.(string)$project->keyword.$i.$prefix[$j].'.jpg" />';
+                                    }
+                                    echo '  </div>';
+                                }
+
+                                echo '  </div>';
                             }
                             break;
 

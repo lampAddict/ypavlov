@@ -2,13 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/admin.php" afterPath="$PROJECT_DIR$/lib/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto1f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto2c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto2f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto3c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto3f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto4c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto4f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto5c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto6f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred1f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred2c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred2f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred3c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred3f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred4c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred4f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred5c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\hcred5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet1f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet2c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet2f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet3c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet3f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet4c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet4f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet5c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\homnet5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu1f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu2c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu2f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu3c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu3f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu4c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu4f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu5c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu6f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu7c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kamatsu7f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper1f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper2c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper2f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper3c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper3f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper4c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper4f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper5c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\kasper6f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg1f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg2c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg2f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg3c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg3f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg4c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\rrg4f.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/core.php" afterPath="$PROJECT_DIR$/lib/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/site.xml" afterPath="$PROJECT_DIR$/data/site.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/public_interior.php" afterPath="$PROJECT_DIR$/protected/views/site/public_interior.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yparch.iws" />
@@ -67,7 +161,7 @@
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/Товар.Pepen коллекция.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383292998683" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/pepen test/netcat/full.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383293915841" ignored="false" />
     <file path="/private_interior.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383841011636" ignored="false" />
-    <file path="/core.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384955771003" ignored="false" />
+    <file path="/core.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385037147618" ignored="false" />
     <file path="/Dummy.txt" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384848722562" ignored="false" />
     <file path="/admin.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384948243086" ignored="false" />
     <file path="/menu.xml" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384351801092" ignored="false" />
@@ -75,7 +169,10 @@
     <file path="/style.css" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384432085322" ignored="false" />
     <file path="/site.xml" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384955241712" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/libonline/index.html" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384848758672" ignored="false" />
-    <file path="$PROJECT_DIR$/../libonline/index.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384853430749" ignored="false" />
+    <file path="$PROJECT_DIR$/../libonline/index.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385041822756" ignored="false" />
+    <file path="$PROJECT_DIR$/../libonline/config/config.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385042404394" ignored="false" />
+    <file path="$PROJECT_DIR$/../libonline/.htaccess" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385044095762" ignored="false" />
+    <file path="/.htaccess" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385043966576" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +204,7 @@
       <file leaf-file-name="public_interior.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="84" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-17.807692">
+            <state line="39" column="45" selection-start="1353" selection-end="1353" vertical-scroll-proportion="-21.73077">
               <folding />
             </state>
           </provider>
@@ -144,15 +241,16 @@
       <file leaf-file-name="core.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="208" column="66" selection-start="8157" selection-end="8157" vertical-scroll-proportion="0.15737298">
+            <state line="237" column="76" selection-start="9992" selection-end="9992" vertical-scroll-proportion="0.43990088">
               <folding>
-                <marker date="1384955823649" expanded="true" signature="2381:2451" placeholder="..." />
-                <marker date="1384955823649" expanded="true" signature="2583:3292" placeholder="..." />
-                <marker date="1384955823649" expanded="true" signature="8638:8910" placeholder="..." />
-                <marker date="1384955823649" expanded="true" signature="8638:9280" placeholder="..." />
-                <marker date="1384955823649" expanded="true" signature="8638:8848" placeholder="..." />
-                <marker date="1384955823649" expanded="true" signature="8638:8740" placeholder="..." />
-                <marker date="1384955823649" expanded="true" signature="9098:9161" placeholder="..." />
+                <marker date="1385040867111" expanded="true" signature="2381:2451" placeholder="..." />
+                <marker date="1385040867111" expanded="true" signature="2583:3292" placeholder="..." />
+                <marker date="1385040867111" expanded="true" signature="8638:8910" placeholder="..." />
+                <marker date="1385040867111" expanded="true" signature="8638:9280" placeholder="..." />
+                <marker date="1385040867111" expanded="true" signature="8638:8848" placeholder="..." />
+                <marker date="1385040867111" expanded="true" signature="8638:8740" placeholder="..." />
+                <marker date="1385040867111" expanded="true" signature="9098:9161" placeholder="..." />
+                <marker date="1385040867111" expanded="true" signature="10739:10766" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -161,7 +259,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="115" selection-end="115" vertical-scroll-proportion="-3.9230769">
+            <state line="8" column="30" selection-start="149" selection-end="149" vertical-scroll-proportion="-5.230769">
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -191,7 +289,7 @@
       <file leaf-file-name="site.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/site.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="18" selection-start="3177" selection-end="3177" vertical-scroll-proportion="0.0">
+            <state line="42" column="69" selection-start="2252" selection-end="2267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,7 +315,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/interfaces.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/public_interior.php" />
         <option value="$PROJECT_DIR$/protected/views/site/private_interior.php" />
         <option value="$PROJECT_DIR$/protected/views/site/partners.php" />
         <option value="$PROJECT_DIR$/protected/views/site/projects.php" />
@@ -229,16 +326,17 @@
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/lib/admin.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/data/site.xml" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/data/site.xml" />
+        <option value="$PROJECT_DIR$/protected/views/site/public_interior.php" />
         <option value="$PROJECT_DIR$/lib/core.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="17" />
+    <option name="x" value="45" />
+    <option name="y" value="35" />
     <option name="width" value="1872" />
     <option name="height" value="1016" />
   </component>
@@ -509,7 +607,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="17" width="1872" height="1016" extended-state="1" />
+    <frame x="45" y="35" width="1872" height="1016" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -646,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="84" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-17.807692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="62" selection-start="944" selection-end="944" vertical-scroll-proportion="-20.923077">
@@ -664,16 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="41" selection-start="910" selection-end="910" vertical-scroll-proportion="-6.6923075">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="115" selection-end="115" vertical-scroll-proportion="-3.9230769">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="18" selection-start="3177" selection-end="3177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="430" column="18" selection-start="6245" selection-end="6245" vertical-scroll-proportion="0.0">
@@ -717,17 +791,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="69" selection-start="2252" selection-end="2267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="45" selection-start="1353" selection-end="1353" vertical-scroll-proportion="-21.73077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="149" selection-end="149" vertical-scroll-proportion="-5.230769">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="66" selection-start="8157" selection-end="8157" vertical-scroll-proportion="0.15737298">
+        <state line="237" column="76" selection-start="9992" selection-end="9992" vertical-scroll-proportion="0.43990088">
           <folding>
-            <marker date="1384955823649" expanded="true" signature="2381:2451" placeholder="..." />
-            <marker date="1384955823649" expanded="true" signature="2583:3292" placeholder="..." />
-            <marker date="1384955823649" expanded="true" signature="8638:8910" placeholder="..." />
-            <marker date="1384955823649" expanded="true" signature="8638:9280" placeholder="..." />
-            <marker date="1384955823649" expanded="true" signature="8638:8848" placeholder="..." />
-            <marker date="1384955823649" expanded="true" signature="8638:8740" placeholder="..." />
-            <marker date="1384955823649" expanded="true" signature="9098:9161" placeholder="..." />
+            <marker date="1385040867111" expanded="true" signature="2381:2451" placeholder="..." />
+            <marker date="1385040867111" expanded="true" signature="2583:3292" placeholder="..." />
+            <marker date="1385040867111" expanded="true" signature="8638:8910" placeholder="..." />
+            <marker date="1385040867111" expanded="true" signature="8638:9280" placeholder="..." />
+            <marker date="1385040867111" expanded="true" signature="8638:8848" placeholder="..." />
+            <marker date="1385040867111" expanded="true" signature="8638:8740" placeholder="..." />
+            <marker date="1385040867111" expanded="true" signature="9098:9161" placeholder="..." />
+            <marker date="1385040867111" expanded="true" signature="10739:10766" placeholder="..." />
           </folding>
         </state>
       </provider>
