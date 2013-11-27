@@ -48,6 +48,13 @@ class SiteController extends Controller
         $this->render('partners');
     }
 
+    public function actionAbout()
+    {
+        // renders the view file 'protected/views/site/index.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->render('about');
+    }
+
 	/**
 	 * This is the action to handle external exceptions.
 	 */

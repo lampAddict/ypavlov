@@ -23,7 +23,12 @@ $menu = $admin->get_menu_items();
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
     <script src="/ckeditor/ckeditor.js"></script>
+    <script src="js/jquery.jcarousel.js"></script>
+    <script src="js/jquery.jcarousel-autoscroll.js"></script>
+
 </head>
 
 <body>
@@ -32,7 +37,7 @@ $menu = $admin->get_menu_items();
 
 	<div id="header">
 		<div id="logo">
-			<img src="images/logo.jpg"/>
+			<img src="images/logo.jpg" onclick="window.location.href='/';return false;"/>
 			<?php //echo CHtml::encode(Yii::app()->name); ?>
 		</div>
 	</div><!-- header -->
@@ -51,8 +56,8 @@ $menu = $admin->get_menu_items();
 	<div id="mainmenu">
         <table class="menu">
             <tr>
-                <td <?= check_active_menu_link($_GET, 'site/index') ?>>
-                    <a class="textBold" href="index.php?r=site/index"><?=show_menu_item(0)?></a>
+                <td <?= check_active_menu_link($_GET, 'site/about') ?>>
+                    <a class="textBold" href="index.php?r=site/about"><?=show_menu_item(0)?></a>
                 </td>
                 <td <?= check_active_menu_link($_GET, 'site/public_interior') ?> style="text-align:center">
                     <a class="textBold" href="index.php?r=site/public_interior" style="margin-right: 60px;"><?=show_menu_item(1)?></a>

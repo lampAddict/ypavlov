@@ -24,7 +24,6 @@ class InnerView implements IView{
 
     public function view(){
     ?>
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <div style="width:100%; margin:20px 0px; min-width:1065px; position:relative; z-index:1;">
         <div class="private_menu">
             <?
