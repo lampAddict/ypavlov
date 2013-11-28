@@ -7,7 +7,7 @@ $this->breadcrumbs=array(
 */
 include_once 'lib/core.php';
 
-$img_dir='public_interior';
+$img_dir='public';
 
 $default_active_menu_item = 'homnet';
 
@@ -18,7 +18,7 @@ $menu_items=array(
 
     'kamatsu'=>array(   'name'=>'Офис компании «KOMATSU»',
                         'info'=>'2012 г. 2500 м.кв.',
-                        'marginLeft'=>'11px',
+                        'marginLeft'=>'8px',
                         'numImg'=>7 ),
 
     'kasper'=>array(    'name'=>'Офис компании «Лаборатория Касперского»',

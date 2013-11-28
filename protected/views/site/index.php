@@ -78,11 +78,8 @@
 
     $('.jcarousel').on('jcarousel:targetin', 'li', function(event, carousel) {
         var img = this.firstChild;
-        $(img).addClass("shadow");
-        if( parseInt($('.jcarousel').width()) > parseInt(img.width) )
-            $('.jcarousel').width(parseInt(img.width));
-        else
-        if( parseInt($('.jcarousel').width()) < parseInt(img.width) )
+        //$(img).addClass("shadow");
+        if( img )
             $('.jcarousel').width(parseInt(img.width));
     });
 

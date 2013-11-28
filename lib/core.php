@@ -96,10 +96,11 @@ class InnerView implements IView{
 
                             var aHeight =  $('#galContainer').innerHeight();
 
-                            var galWidth = $('#galContainer').innerWidth();
+                            var galWidth = parseInt($('#galContainer').innerWidth());
+
                             var wWidth =  window.innerWidth;
 
-                            var marginVal = parseInt(700/2 - parseInt(galWidth)/2);
+                            var marginVal = parseInt(700/2 - galWidth/2);
 
                             $('#close').css('marginRight', marginVal + 'px' );
                             $('#close').css('marginTop', -parseInt(aHeight) + 'px' );
