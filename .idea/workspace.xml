@@ -2,108 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto1f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto2c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto2f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto3c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto3f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto4c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto4f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto5c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto5f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto6c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\aqualeto6f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred1f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred2c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred2f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred3c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred3f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred4c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred4f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred5c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\hcred5f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet1f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet2c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet2f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet3c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet3f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet4c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet4f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet5c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\homnet5f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu1f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu2c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu2f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu3c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu3f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu4c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu4f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu5c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu5f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu6c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu6f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu7c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kamatsu7f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper1f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper2c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper2f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper3c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper3f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper4c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper4f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper5c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper5f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper6c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\kasper6f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg1f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg2c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg2f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg3c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg3f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg4c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public_interior\rrg4f.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/core.php" afterPath="$PROJECT_DIR$/lib/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/public_interior.php" afterPath="$PROJECT_DIR$/protected/views/site/public_interior.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub1.jpg" afterPath="$PROJECT_DIR$/images/private/arub1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub1c.jpg" afterPath="$PROJECT_DIR$/images/private/arub1c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub1f.jpg" afterPath="$PROJECT_DIR$/images/private/arub1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub2.jpg" afterPath="$PROJECT_DIR$/images/private/arub2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub2c.jpg" afterPath="$PROJECT_DIR$/images/private/arub2c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub2f.jpg" afterPath="$PROJECT_DIR$/images/private/arub2f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub3.jpg" afterPath="$PROJECT_DIR$/images/private/arub3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub3c.jpg" afterPath="$PROJECT_DIR$/images/private/arub3c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub3f.jpg" afterPath="$PROJECT_DIR$/images/private/arub3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub4.jpg" afterPath="$PROJECT_DIR$/images/private/arub4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub4c.jpg" afterPath="$PROJECT_DIR$/images/private/arub4c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub4f.jpg" afterPath="$PROJECT_DIR$/images/private/arub4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub5.jpg" afterPath="$PROJECT_DIR$/images/private/arub5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub5c.jpg" afterPath="$PROJECT_DIR$/images/private/arub5c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/arub5f.jpg" afterPath="$PROJECT_DIR$/images/private/arub5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/ktyazh1.jpg" afterPath="$PROJECT_DIR$/images/private/ktyazh1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/ktyazh1c.jpg" afterPath="$PROJECT_DIR$/images/private/ktyazh1c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/ktyazh1f.jpg" afterPath="$PROJECT_DIR$/images/private/ktyazh1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/ktyazh2f.jpg" afterPath="$PROJECT_DIR$/images/private/ktyazh2f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/ktyazh3f.jpg" afterPath="$PROJECT_DIR$/images/private/ktyazh3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/ktyazh4f.jpg" afterPath="$PROJECT_DIR$/images/private/ktyazh4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/ktyazh5f.jpg" afterPath="$PROJECT_DIR$/images/private/ktyazh5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/zykeevo1f.jpg" afterPath="$PROJECT_DIR$/images/private/zykeevo1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/zykeevo2.jpg" afterPath="$PROJECT_DIR$/images/private/zykeevo2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/zykeevo2c.jpg" afterPath="$PROJECT_DIR$/images/private/zykeevo2c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/private/zykeevo2f.jpg" afterPath="$PROJECT_DIR$/images/private/zykeevo2f.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yparch.iws" />
@@ -206,10 +130,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public_interior.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="public_interior.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="0.07630058">
+            <state line="7" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.5384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="private_interior.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="13" selection-start="837" selection-end="845" vertical-scroll-proportion="0.5699422">
               <folding />
             </state>
           </provider>
@@ -696,11 +629,6 @@
         <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="0.020731708" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="63" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii/framework/web/form/CForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.9085364" />
@@ -800,7 +728,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="0.07630058">
+        <state line="7" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.5384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="837" selection-end="845" vertical-scroll-proportion="0.5699422">
           <folding />
         </state>
       </provider>
