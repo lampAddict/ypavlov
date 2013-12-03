@@ -176,47 +176,184 @@ class AdminView extends Admin implements IView{
         $this->params = $data;
     }
 
-    public function view(){
+    private $pwd_hash = '9834616805b5504f995d94231422a9b5';
 
-        //save changes to xml
-        if( !empty($this->params) ){
-            $this->readXML();
-            foreach( $this->data->sections->section as $section ){
-                //try upfate appropriate data section
-                if( is_numeric($this->params['id']) && $this->params['id'] == $section['id'] ){
-                    $section->content = $this->params['editor'];
-                    if( isset($this->params['sname']) && $this->params['sname'] != '' && $this->params['sname'] != ' ' && trim($this->params['sname']) != $section->name ){
-                        $section->name = $this->params['sname'];
-                    }
-                    break;
-                }
+    private $salt = 'read_sea_salt';
+
+    private function auth(){
+
+        //var_dump($_POST);
+
+        if( !isset($_SESSION) ) session_start();
+
+        if( isset($_POST['user']) && isset($_POST['pwd']) ){
+            $usr = $_POST['user'];
+            $pwd = $_POST['pwd'];
+
+            $result = $pwd . $usr . $this->salt;
+            $result = md5( $result );
+            for( $j=1; $j<=3; $j++ ){
+                $result .= $this->salt;
+                $result = md5( $result );
             }
 
-            $this->saveXML($this->data);
+            if( $result == $this->pwd_hash ){
+                $_SESSION['sign'] = $result;
+            }
+            else{
+                unset($_SESSION['sign']);
+                session_destroy();
+            }
+            unset($_POST);
         }
 
-        //read xml data file
-        $this->readXML('data/site.xml');
-        if( $this->data ){
+    }
 
-            $url = Yii::app()->request->url;
-            $url_parts = explode('&', $url);
-            if( is_array($url_parts) ){
-                $url = $url_parts[0];
+    public function view(){
+
+     $this->auth();
+
+    if( !isset($_SESSION['sign']) || ( isset($_SESSION['sign']) && $_SESSION['sign'] != $this->pwd_hash) ){ ?>
+        <a alt="Авторизация" title="Авторизация" class="loginout" href="#" onclick="showHideLoginForm()" style="background-image: url('images/_login.png'); background-repeat: no-repeat;"></a>
+    <? }
+    if( isset($_SESSION['sign']) && $_SESSION['sign'] == $this->pwd_hash ){ ?>
+        <a alt="Выход" title="Выход" class="loginout" href="#" onclick="$('form#signout').submit(); return false;" style="background-image: url('images/_logout.png'); background-repeat: no-repeat;"></a>
+        <div style="width:100%; float:left">
+        <form id="signout" action="" method="POST">
+            <input type="hidden" name="user" value=""/>
+            <input type="hidden" name="pwd" value=""/>
+        </form>
+        </div>
+    <? }
+
+        if( !isset($_SESSION['sign']) || ( isset($_SESSION['sign']) && $_SESSION['sign'] != $this->pwd_hash) ){
+            ?>
+            <style>
+                form {
+                    width: 100px;
+                    margin-left: 10px;
+                }
+                input[type="submit"]{
+                    margin-left: 0px;
+                }
+                td{
+                //padding: 3px;
+                }
+                .form-signin {
+                    max-width: 300px;
+                    padding: 19px 29px 29px;
+                    margin: 0 auto 20px;
+                    background-color: #fff;
+                    border: 1px solid #e5e5e5;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                    width: 202px;
+                }
+                .form-signin .form-signin-heading,
+                .form-signin .checkbox {
+                    margin-bottom: 10px;
+                }
+                .form-signin input[type="text"],
+                .form-signin input[type="password"] {
+                    font-size: 16px;
+                    height: auto;
+                    margin-bottom: 15px;
+                    padding: 7px 9px;
+                }
+                .inner{
+                    padding: 8px 10px 0px 0px;
+                }
+                .tint {
+                    position: fixed;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0,0,0,.4);
+                    z-index: 1000;
+                    display: none;
+                }
+                .auth {
+                    z-index: 1000;
+                    display: none;
+                    position: fixed;
+                    top: 185px;
+                    left: 40%;
+                }
+                .cross{
+                    font-family: arial;
+                    font-size: 1.5em;
+                    line-height: 1;
+                    color: #999;
+                    position: relative;
+                    left: 11.5em;
+                    top: -.75em;
+                    vertical-align: middle;
+                    cursor: pointer;
+                }
+            </style>
+            <script type="text/javascript" src="js/bootstrap.js"></script>
+            <script type="text/javascript">
+                function showHideLoginForm(){
+                    $('div#auth').css('display') == 'block' ? $('div#auth').css('display','none') : $('div#auth').css('display','block');
+                    $('div#tint').css('display') == 'block' ? $('div#tint').css('display','none') : $('div#tint').css('display','block');
+                }
+            </script>
+            <div class="tint" id="tint"></div>
+            <div id="auth" class="auth">
+                <form method="POST" action="" class="form-signin">
+                    <span class="cross" alt="Закрыть" title="Закрыть" onclick="showHideLoginForm()">&#10005;</span>
+                    <input name="user" type="text" class="input-block-level" placeholder="Имя пользователя">
+                    <input name="pwd" type="password" class="input-block-level" placeholder="Пароль">
+                    <button class="btn btn-large btn-primary" type="submit" style="float: right; margin-top: -4px;">Войти</button>
+                </form>
+            </div>
+            <?
+        }
+        else{
+            //save changes to xml
+            if( !empty($this->params) ){
+                $this->readXML();
+                foreach( $this->data->sections->section as $section ){
+                    //try upfate appropriate data section
+                    if( is_numeric($this->params['id']) && $this->params['id'] == $section['id'] ){
+                        $section->content = $this->params['editor'];
+                        if( isset($this->params['sname']) && $this->params['sname'] != '' && $this->params['sname'] != ' ' && trim($this->params['sname']) != $section->name ){
+                            $section->name = $this->params['sname'];
+                        }
+                        break;
+                    }
+                }
+
+                $this->saveXML($this->data);
             }
 
-            //render admin sections
-            foreach( $this->data->sections->section as $section ){
-                //var_dump($section);
-                echo '  <div class="alink">
+            //read xml data file
+            $this->readXML('data/site.xml');
+            if( $this->data ){
+
+                $url = Yii::app()->request->url;
+                $url_parts = explode('&', $url);
+                if( is_array($url_parts) ){
+                    $url = $url_parts[0];
+                }
+
+                //render admin sections
+                foreach( $this->data->sections->section as $section ){
+                    //var_dump($section);
+                    echo '  <div class="alink">
                             <a href="'.$url.'&edit='.$section['id'].'">'.$section->name.'</a>
                         </div>';
 
-                if( is_numeric($this->params) && $this->params == $section['id'] ){
-                    echo '<form action="" method="POST">';
-                    switch( $section['type'] ){
-                        case 'text':
-                            echo '    <div>
+                    if( is_numeric($this->params) && $this->params == $section['id'] ){
+                        echo '<form action="" method="POST">';
+                        switch( $section['type'] ){
+                            case 'text':
+                                echo '    <div>
                                         <input style="margin-left:0" type="text" name="sname" value="'.(string)$section->name.'"/>
                                         <input type="hidden" name="id" value="'.$section['id'].'"/>
                                         <textarea name="editor" >
@@ -226,42 +363,44 @@ class AdminView extends Admin implements IView{
                                             CKEDITOR.replace( "editor",{width:1021} );
                                         </script>
                                       </div>';
-                            break;
-                        case 'img':
-                            echo '    <div style="margin:5px 0; padding:3px 0; border-bottom:1px solid #778899">
+                                break;
+                            case 'img':
+                                echo '    <div style="margin:5px 0; padding:3px 0; border-bottom:1px solid #778899">
                                         <input style="margin-left:0" type="text" name="sname" value="'.(string)$section->name.'"/>
                                         <input type="hidden" name="id" value="'.$section['id'].'"/>
                                       </div>';
 
-                            $prefix = array(1=>'',2=>'c',3=>'f');
-                            $pic_name = array(1=>'чб превью',2=>'цветная превью',3=>'полноразмерная');
-                            foreach($section->content->imglist as $project){
-                                echo '  <div style="float:left; border-bottom:1px solid #555555; padding: 5px 0">
+                                $prefix = array(1=>'',2=>'c',3=>'f');
+                                $pic_name = array(1=>'чб превью',2=>'цветная превью',3=>'полноразмерная');
+                                foreach($section->content->imglist as $project){
+                                    echo '  <div style="float:left; border-bottom:1px solid #555555; padding: 5px 0">
                                             <input type="hidden" name="pid" value="'.$project['id'].'"/>
                                             <div style="width:100%; float:left;">
                                                 <input style="margin-left:0;" type="text" name="pname" value="'.$project->name.'"/>
                                                 <input style="margin-left:0;" type="text" name="pinfo" value="'.$project->info.'"/>
                                             </div>';
 
-                                for($i=1; $i<=$project->numimg; $i++){
-                                    echo '  <div style="float:left; padding: 5px 0;"><span>'.$i.'.</span><input style="margin-left:0; float:left; width:100%" type="file" name="img'.$i.'" value=""/>';
-                                    for( $j=1; $j<=3; $j++){
-                                        echo '<img style="width:100px; height:200px; float:left; border:1px solid white" src="images/'.(string)$section['page'].'/'.(string)$project->keyword.$i.$prefix[$j].'.jpg" />';
+                                    for($i=1; $i<=$project->numimg; $i++){
+                                        echo '  <div style="float:left; padding: 5px 0;"><span>'.$i.'.</span><input style="margin-left:0; float:left; width:100%" type="file" name="img'.$i.'" value=""/>';
+                                        for( $j=1; $j<=3; $j++){
+                                            echo '<img style="width:100px; height:200px; float:left; border:1px solid white" src="images/'.(string)$section['page'].'/'.(string)$project->keyword.$i.$prefix[$j].'.jpg" />';
+                                        }
+                                        echo '  </div>';
                                     }
+
                                     echo '  </div>';
                                 }
+                                break;
 
-                                echo '  </div>';
-                            }
-                            break;
-
+                        }
+                        echo '<input class="submit" type="submit" value="Сохранить"/></form>';
                     }
-                    echo '<input class="submit" type="submit" value="Сохранить"/></form>';
+
                 }
 
             }
-
         }
+
     }
 }
 ?>

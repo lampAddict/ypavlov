@@ -473,3 +473,13 @@ have a fixed width and height (but it's not required).
 .jcarousel li img{
     cursor: pointer;
 }
+.loginout{
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 98%;
+    top: -60px;
+}
