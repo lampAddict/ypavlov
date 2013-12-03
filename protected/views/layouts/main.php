@@ -25,7 +25,7 @@ $menu = $admin->get_menu_items();
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
     <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="/ckeditor/ckeditor.js"></script>
+    <script src="ckeditor/ckeditor.js"></script>
     <script src="js/jquery.jcarousel.js"></script>
     <script src="js/jquery.jcarousel-autoscroll.js"></script>
 
