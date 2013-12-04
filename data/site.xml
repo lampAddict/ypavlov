@@ -40,7 +40,7 @@
 &lt;p&gt;Общественные интерьеры - офисы, торговые центры, банки, салоны красоты, рестораны, гостиницы, магазины, спортзалы, выставочные стенды. Архитектурное проектирование: коттеджные поселки, разработка генплана, загородных домов, таунхаусов, тнинхаусов, малых архитектурных форм. Частный интерьер квартир, коттеджей. Ландшафтный дизайн.&lt;/p&gt;&#13;
 </content>
         </section>
-        <section id="1" type="img" dir="public" page="public_interior">
+        <section id="1" type="img" dir="public" page="public">
             <name>общественные интерьеры</name>
             <content>
                 <imglist id="1">
@@ -63,7 +63,7 @@
                 </imglist>
             </content>
         </section>
-        <section id="2" type="img" dir="public" page="private_interior">
+        <section id="2" type="img" dir="public" page="private">
             <name>частные интерьеры</name>
             <content>
                 <imglist id="1">

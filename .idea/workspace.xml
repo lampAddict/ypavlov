@@ -4,6 +4,8 @@
     <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/core.php" afterPath="$PROJECT_DIR$/lib/core.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/site.xml" afterPath="$PROJECT_DIR$/data/site.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yparch.iws" />
@@ -51,7 +53,7 @@
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/Товар pepen after change.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382606231089" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/test5.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382617005111" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/index.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382960184278" ignored="false" />
-    <file path="/main.css" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385636432134" ignored="false" />
+    <file path="/main.css" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386162079994" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/e404.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382959035401" ignored="false" />
     <file path="/e404.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382959025153" ignored="false" />
     <file path="/main.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385551294364" ignored="false" />
@@ -62,7 +64,7 @@
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/Товар.Pepen коллекция.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383292998683" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/pepen test/netcat/full.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383293915841" ignored="false" />
     <file path="/private_interior.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383841011636" ignored="false" />
-    <file path="/core.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386082068902" ignored="false" />
+    <file path="/core.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386161638119" ignored="false" />
     <file path="/Dummy.txt" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385626276284" ignored="false" />
     <file path="/admin.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384948243086" ignored="false" />
     <file path="/menu.xml" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384351801092" ignored="false" />
@@ -82,6 +84,7 @@
     <file path="/товарPepen.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385991306736" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/корзина.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385989008933" ignored="false" />
     <file path="/корзина.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385988985080" ignored="false" />
+    <file path="/screen.css" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386161989237" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,16 +107,16 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="484" column="1" selection-start="7224" selection-end="7224" vertical-scroll-proportion="0.0">
+            <state line="13" column="23" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public_interior.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
+      <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.5384614">
+            <state line="37" column="26" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,35 +131,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <file leaf-file-name="core.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="87" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-0.65384614">
+            <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="-30.153847">
               <folding>
-                <marker date="1385551306082" expanded="true" signature="2443:2462" placeholder="..." />
-                <marker date="1385551306082" expanded="true" signature="2710:2728" placeholder="..." />
-                <marker date="1385551306082" expanded="true" signature="2962:2980" placeholder="..." />
-                <marker date="1385551306082" expanded="true" signature="3197:3215" placeholder="..." />
-                <marker date="1385551306082" expanded="true" signature="3430:3450" placeholder="..." />
-                <marker date="1385551306082" expanded="true" signature="4258:4306" placeholder="..." />
+                <element signature="e#6#69#0" expanded="true" />
+                <element signature="e#520#604#0" expanded="true" />
+                <element signature="e#2299#2464#0" expanded="true" />
+                <element signature="e#7984#8066#0" expanded="true" />
+                <element signature="e#8085#8115#0" expanded="true" />
+                <element signature="e#10640#10679#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/core.php">
+      <file leaf-file-name="site.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/site.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="44" selection-start="6882" selection-end="6882" vertical-scroll-proportion="0.12206573">
-              <folding>
-                <element signature="e#6#69#0" expanded="true" />
-                <element signature="e#520#604#0" expanded="true" />
-                <element signature="e#2299#2464#0" expanded="true" />
-                <element signature="e#8007#8088#0" expanded="true" />
-                <element signature="e#8297#8379#0" expanded="true" />
-                <element signature="e#8398#8428#0" expanded="true" />
-                <element signature="e#12161#12200#0" expanded="true" />
-              </folding>
+            <state line="42" column="60" selection-start="2258" selection-end="2258" vertical-scroll-proportion="0.309795">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,7 +159,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="34" selection-start="6205" selection-end="6205" vertical-scroll-proportion="-26.076923">
+            <state line="79" column="34" selection-start="6205" selection-end="6205" vertical-scroll-proportion="-19.538462">
               <folding />
             </state>
           </provider>
@@ -173,7 +168,7 @@
       <file leaf-file-name="about.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="-5.8846154">
+            <state line="16" column="21" selection-start="341" selection-end="341" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -225,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/site/private_interior.php" />
         <option value="$PROJECT_DIR$/protected/views/site/partners.php" />
         <option value="$PROJECT_DIR$/protected/views/site/projects.php" />
         <option value="$PROJECT_DIR$/protected/views/site/contact.php" />
@@ -233,21 +227,22 @@
         <option value="$PROJECT_DIR$/data/menu.xml" />
         <option value="$PROJECT_DIR$/protected/views/site/admin.php" />
         <option value="$PROJECT_DIR$/lib/admin.php" />
-        <option value="$PROJECT_DIR$/data/site.xml" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/about.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/site/public_interior.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/screen.css" />
+        <option value="$PROJECT_DIR$/protected/views/site/about.php" />
         <option value="$PROJECT_DIR$/lib/core.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/data/site.xml" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="86" />
+    <option name="x" value="6" />
+    <option name="y" value="55" />
     <option name="width" value="1855" />
     <option name="height" value="1061" />
   </component>
@@ -293,96 +288,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yparch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,7 +423,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="86" width="1855" height="1061" extended-state="0" />
+    <frame x="6" y="55" width="1855" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -603,11 +508,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="0.020731708" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii/framework/web/form/CForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.9085364" />
@@ -628,20 +528,6 @@
         <state line="2" column="27" selection-start="38" selection-end="65" vertical-scroll-proportion="0.041463416" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="69" selection-start="2252" selection-end="2267" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="34" selection-start="6205" selection-end="6205" vertical-scroll-proportion="-26.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.5384614">
@@ -649,37 +535,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.2307693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="87" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-0.65384614">
-          <folding>
-            <marker date="1385551306082" expanded="true" signature="2443:2462" placeholder="..." />
-            <marker date="1385551306082" expanded="true" signature="2710:2728" placeholder="..." />
-            <marker date="1385551306082" expanded="true" signature="2962:2980" placeholder="..." />
-            <marker date="1385551306082" expanded="true" signature="3197:3215" placeholder="..." />
-            <marker date="1385551306082" expanded="true" signature="3430:3450" placeholder="..." />
-            <marker date="1385551306082" expanded="true" signature="4258:4306" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="37" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="-5.8846154">
           <folding />
         </state>
       </provider>
@@ -698,25 +556,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="34" selection-start="6205" selection-end="6205" vertical-scroll-proportion="-19.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="23" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.48901734">
+          <folding>
+            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.2307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="341" selection-end="341" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="484" column="1" selection-start="7224" selection-end="7224" vertical-scroll-proportion="0.0">
+        <state line="13" column="23" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="26" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="44" selection-start="6882" selection-end="6882" vertical-scroll-proportion="0.12206573">
+        <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="-30.153847">
           <folding>
             <element signature="e#6#69#0" expanded="true" />
             <element signature="e#520#604#0" expanded="true" />
             <element signature="e#2299#2464#0" expanded="true" />
-            <element signature="e#8007#8088#0" expanded="true" />
-            <element signature="e#8297#8379#0" expanded="true" />
-            <element signature="e#8398#8428#0" expanded="true" />
-            <element signature="e#12161#12200#0" expanded="true" />
+            <element signature="e#7984#8066#0" expanded="true" />
+            <element signature="e#8085#8115#0" expanded="true" />
+            <element signature="e#10640#10679#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="60" selection-start="2258" selection-end="2258" vertical-scroll-proportion="0.309795">
+          <folding />
         </state>
       </provider>
     </entry>

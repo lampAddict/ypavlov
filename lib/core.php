@@ -211,11 +211,8 @@ class AdminView extends Admin implements IView{
 
     public function view(){
 
-     $this->auth();
+    $this->auth();
 
-    if( !isset($_SESSION['sign']) || ( isset($_SESSION['sign']) && $_SESSION['sign'] != $this->pwd_hash) ){ ?>
-        <a alt="Авторизация" title="Авторизация" class="loginout" href="#" onclick="showHideLoginForm()" style="background-image: url('images/_login.png'); background-repeat: no-repeat;"></a>
-    <? }
     if( isset($_SESSION['sign']) && $_SESSION['sign'] == $this->pwd_hash ){ ?>
         <a alt="Выход" title="Выход" class="loginout" href="#" onclick="$('form#signout').submit(); return false;" style="background-image: url('images/_logout.png'); background-repeat: no-repeat;"></a>
         <div style="width:100%; float:left">
@@ -236,9 +233,6 @@ class AdminView extends Admin implements IView{
                 input[type="submit"]{
                     margin-left: 0px;
                 }
-                td{
-                //padding: 3px;
-                }
                 .form-signin {
                     max-width: 300px;
                     padding: 19px 29px 29px;
@@ -253,19 +247,12 @@ class AdminView extends Admin implements IView{
                     box-shadow: 0 1px 2px rgba(0,0,0,.05);
                     width: 202px;
                 }
-                .form-signin .form-signin-heading,
-                .form-signin .checkbox {
-                    margin-bottom: 10px;
-                }
                 .form-signin input[type="text"],
                 .form-signin input[type="password"] {
                     font-size: 16px;
                     height: auto;
                     margin-bottom: 15px;
                     padding: 7px 9px;
-                }
-                .inner{
-                    padding: 8px 10px 0px 0px;
                 }
                 .tint {
                     position: fixed;
@@ -279,34 +266,16 @@ class AdminView extends Admin implements IView{
                 }
                 .auth {
                     z-index: 1000;
-                    display: none;
+                    display: block;
                     position: fixed;
                     top: 185px;
                     left: 40%;
                 }
-                .cross{
-                    font-family: arial;
-                    font-size: 1.5em;
-                    line-height: 1;
-                    color: #999;
-                    position: relative;
-                    left: 11.5em;
-                    top: -.75em;
-                    vertical-align: middle;
-                    cursor: pointer;
-                }
             </style>
             <script type="text/javascript" src="js/bootstrap.js"></script>
-            <script type="text/javascript">
-                function showHideLoginForm(){
-                    $('div#auth').css('display') == 'block' ? $('div#auth').css('display','none') : $('div#auth').css('display','block');
-                    $('div#tint').css('display') == 'block' ? $('div#tint').css('display','none') : $('div#tint').css('display','block');
-                }
-            </script>
             <div class="tint" id="tint"></div>
             <div id="auth" class="auth">
                 <form method="POST" action="" class="form-signin">
-                    <span class="cross" alt="Закрыть" title="Закрыть" onclick="showHideLoginForm()">&#10005;</span>
                     <input name="user" type="text" class="input-block-level" placeholder="Имя пользователя">
                     <input name="pwd" type="password" class="input-block-level" placeholder="Пароль">
                     <button class="btn btn-large btn-primary" type="submit" style="float: right; margin-top: -4px;">Войти</button>
