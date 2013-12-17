@@ -87,7 +87,12 @@
         visible: 1,
         scroll: 1,
         wrap: 'circular'
-    }).jcarouselAutoscroll({
+        }).jcarousel({
+            animation: {
+                duration: 600,
+                easing:   'linear'
+            }
+        }).jcarouselAutoscroll({
             interval: 3000,
             target: '+=1',
             autostart: true

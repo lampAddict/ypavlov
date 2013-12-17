@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/aqualeto2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/aqualeto2f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/aqualeto3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/aqualeto3f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/aqualeto4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/aqualeto4f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/aqualeto6f.jpg" afterPath="$PROJECT_DIR$/images/carousel/aqualeto6f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/arub3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/arub3f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred1f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred2f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred3f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred4f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred5f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/homnet4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/homnet4f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/homnet5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/homnet5f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu1f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu2f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu3f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu4f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu5f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu6f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu6f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kasper1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kasper1f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kasper5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kasper5f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/ktyazh1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/ktyazh1f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/ktyazh3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/ktyazh3f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/rrg1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/rrg1f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/rrg2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/rrg2f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/rrg3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/rrg3f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo1f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo2f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo3f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo4f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo5f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo6f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo6f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/zykeevo1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/zykeevo1f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/zykeevo2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/zykeevo2f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
     </list>
     <ignored path="yparch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -171,7 +137,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="110" selection-start="1952" selection-end="1952" vertical-scroll-proportion="-0.43800697">
+            <state line="92" column="33" selection-start="6534" selection-end="6534" vertical-scroll-proportion="0.7439166">
               <folding />
             </state>
           </provider>
@@ -593,7 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="110" selection-start="1952" selection-end="1952" vertical-scroll-proportion="-0.43800697">
+        <state line="92" column="33" selection-start="6534" selection-end="6534" vertical-scroll-proportion="0.7439166">
           <folding />
         </state>
       </provider>
