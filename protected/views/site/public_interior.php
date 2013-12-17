@@ -32,12 +32,17 @@ $menu_items=array(
 
     'aqualeto'=>array(  'name'=>'Спортивный клуб-отель «Акватория лета»',
                         'info'=>'2... г. 5 000 кв.м. 82 номера различных категорий',
-                        'marginLeft'=>'25px',
-                        'numImg'=>6 ),
+                        //'marginLeft'=>'25px',
+                        'numImg'=>5),
 
     'rrg'=>array(       'name'=>'Офис компании «RRG»',
                         'info'=>'2000-2001 г. 450 м.кв.',
                         'marginLeft'=>'87px',
+                        'numImg'=>4 ),
+
+    'komsomol'=>array(  'name'=>'Реконструкция кинотеатра «Комсомолец»',
+                        'info'=>'2002 г.',
+                        'marginLeft'=>'86px',
                         'numImg'=>4 ),
 
     'cmg'=>array(       'name'=>'Офис компании «CMG»' ),

@@ -32,9 +32,13 @@ $menu_items=array(
                         'marginLeft'=>'25px',
                         'numImg'=>6 ),
 
-    'asev'=>array(      'name'=>'Квартира на Севастопольском проспекте' ),
+    'asev'=>array(      'name'=>'Квартира на Севастопольском проспекте',
+                        'marginLeft'=>'86px',
+                        'numImg'=>4),
 
-    'acosv'=>array(     'name'=>'Квартира на улице Космонавта Волкова' ),
+    'acosv'=>array(     'name'=>'Квартира на улице Космонавта Волкова',
+                        'marginBlockLeft'=>'325px',
+                        'numImg'=>3),
 
     'app'=>array(       'name'=>'Квартира на Патриарших прудах' ),
 

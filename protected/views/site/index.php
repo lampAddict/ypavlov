@@ -62,7 +62,29 @@
                         array('name'=>'yusupovo6f.jpg','link'=>'/index.php?r=site/private_interior&show=yusupovo'),
 
                         array('name'=>'zykeevo1f.jpg','link'=>'/index.php?r=site/private_interior&show=zykeevo'),
-                        array('name'=>'zykeevo2f.jpg','link'=>'/index.php?r=site/private_interior&show=zykeevo')
+                        array('name'=>'zykeevo2f.jpg','link'=>'/index.php?r=site/private_interior&show=zykeevo'),
+
+                        array('name'=>'komsomol1f.jpg','link'=>'/index.php?r=site/public_interior&show=komsomol'),
+                        array('name'=>'komsomol2f.jpg','link'=>'/index.php?r=site/public_interior&show=komsomol'),
+                        array('name'=>'komsomol3f.jpg','link'=>'/index.php?r=site/public_interior&show=komsomol'),
+                        array('name'=>'komsomol4f.jpg','link'=>'/index.php?r=site/public_interior&show=komsomol'),
+
+                        array('name'=>'asev1f.jpg','link'=>'/index.php?r=site/private_interior&show=asev'),
+                        array('name'=>'asev2f.jpg','link'=>'/index.php?r=site/private_interior&show=asev'),
+                        array('name'=>'asev3f.jpg','link'=>'/index.php?r=site/private_interior&show=asev'),
+                        array('name'=>'asev4f.jpg','link'=>'/index.php?r=site/private_interior&show=asev'),
+
+                        array('name'=>'chulkovo1f.jpg','link'=>'/index.php?r=site/projects&show=chulkovo'),
+                        array('name'=>'chulkovo2f.jpg','link'=>'/index.php?r=site/projects&show=chulkovo'),
+                        array('name'=>'chulkovo3f.jpg','link'=>'/index.php?r=site/projects&show=chulkovo'),
+                        array('name'=>'chulkovo4f.jpg','link'=>'/index.php?r=site/projects&show=chulkovo'),
+                        array('name'=>'chulkovo5f.jpg','link'=>'/index.php?r=site/projects&show=chulkovo'),
+                        array('name'=>'chulkovo6f.jpg','link'=>'/index.php?r=site/projects&show=chulkovo'),
+
+                        array('name'=>'acosv1f.jpg','link'=>'/index.php?r=site/private_interior&show=acosv'),
+                        array('name'=>'acosv2f.jpg','link'=>'/index.php?r=site/private_interior&show=acosv'),
+                        array('name'=>'acosv3f.jpg','link'=>'/index.php?r=site/private_interior&show=acosv'),
+
                        );
 
         shuffle($carim);
