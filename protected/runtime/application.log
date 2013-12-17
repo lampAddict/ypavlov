@@ -71,3 +71,13 @@ Stack trace:
 REQUEST_URI=/index.php?r=site/abour
 HTTP_REFERER=http://yparch/
 ---
+2013/12/04 17:10:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "фвьшт".' in C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CController.php(270): CController->missingAction('??????????')
+#1 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CWebApplication.php(282): CController->run('??????????')
+#2 C:\_stuff\OpenServer\domains\yparch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/??????????')
+#3 C:\_stuff\OpenServer\domains\yparch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\_stuff\OpenServer\domains\yparch\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/%D1%84%D0%B2%D1%8C%D1%88%D1%82
+---

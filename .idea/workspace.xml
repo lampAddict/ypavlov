@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/core.php" afterPath="$PROJECT_DIR$/lib/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/site.xml" afterPath="$PROJECT_DIR$/data/site.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/aqualeto2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/aqualeto2f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/aqualeto3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/aqualeto3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/aqualeto4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/aqualeto4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/aqualeto6f.jpg" afterPath="$PROJECT_DIR$/images/carousel/aqualeto6f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/arub3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/arub3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred2f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/hcred5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/hcred5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/homnet4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/homnet4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/homnet5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/homnet5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu2f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kamatsu6f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kamatsu6f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kasper1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kasper1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/kasper5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/kasper5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/ktyazh1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/ktyazh1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/ktyazh3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/ktyazh3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/rrg1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/rrg1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/rrg2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/rrg2f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/rrg3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/rrg3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo2f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo3f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo4f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo5f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/yusupovo6f.jpg" afterPath="$PROJECT_DIR$/images/carousel/yusupovo6f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/zykeevo1f.jpg" afterPath="$PROJECT_DIR$/images/carousel/zykeevo1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/carousel/zykeevo2f.jpg" afterPath="$PROJECT_DIR$/images/carousel/zykeevo2f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yparch.iws" />
@@ -15,7 +45,7 @@
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/ajax_admin.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1381930127290" ignored="false" />
     <file path="/ajax_admin.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1381928428536" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/lib/model.lib.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382359332594" ignored="false" />
-    <file path="/a.dummy" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385378735918" ignored="false" />
+    <file path="/a.dummy" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386581882137" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/private/config.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382095838190" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/testtest.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382015192965" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/lib/dicontainer.lib.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382096051882" ignored="false" />
@@ -25,7 +55,7 @@
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/index.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382102096121" ignored="false" />
     <file path="/index.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385627085736" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/config/config.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382102562538" ignored="false" />
-    <file path="/config.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382102474918" ignored="false" />
+    <file path="/config.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386671769942" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/lib/SecurityUser.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382107433453" ignored="false" />
     <file path="/SecurityUser.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382107341180" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/model/adminuser.model.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1382107491970" ignored="false" />
@@ -65,7 +95,7 @@
     <file path="$USER_HOME$/PhpstormProjects/pepen test/netcat/full.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383293915841" ignored="false" />
     <file path="/private_interior.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383841011636" ignored="false" />
     <file path="/core.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386161638119" ignored="false" />
-    <file path="/Dummy.txt" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385626276284" ignored="false" />
+    <file path="/Dummy.txt" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387264738405" ignored="false" />
     <file path="/admin.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384948243086" ignored="false" />
     <file path="/menu.xml" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384351801092" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/pepen/style.css" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384432513813" ignored="false" />
@@ -85,6 +115,22 @@
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/корзина.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385989008933" ignored="false" />
     <file path="/корзина.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1385988985080" ignored="false" />
     <file path="/screen.css" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386161989237" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/libonline/lib/dispatcher.lib.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386579277934" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/libonline/models/uids.model.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386676774210" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/libonline/view/login.view.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386601325664" ignored="false" />
+    <file path="/login.view.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386597057733" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/libonline/config/config.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386671815581" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/libonline/view/index.view.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386597898068" ignored="false" />
+    <file path="/index.view.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386597786940" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/libonline/ctl/login.ctl.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386676905212" ignored="false" />
+    <file path="/login.ctl.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386676902737" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/libonline/ctl/base.ctl.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386601442763" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/libonline/ctl/index.ctl.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386676794754" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/lib/Admin/Extension/Database/Database.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387185837986" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/lib/PDODatabase.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387185999704" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/lib/logger.lib.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387186030352" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/lib/Admin/Extension/Database/DatabaseInterface.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387186100148" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/ctl/User.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387186230064" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,80 +159,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/screen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="26" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="private_interior.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.2307693">
+            <state line="3" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/core.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="-30.153847">
-              <folding>
-                <element signature="e#6#69#0" expanded="true" />
-                <element signature="e#520#604#0" expanded="true" />
-                <element signature="e#2299#2464#0" expanded="true" />
-                <element signature="e#7984#8066#0" expanded="true" />
-                <element signature="e#8085#8115#0" expanded="true" />
-                <element signature="e#10640#10679#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/site.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="60" selection-start="2258" selection-end="2258" vertical-scroll-proportion="0.309795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="34" selection-start="6205" selection-end="6205" vertical-scroll-proportion="-19.538462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="341" selection-end="341" vertical-scroll-proportion="-10.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="66" selection-end="66" vertical-scroll-proportion="-2.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="37" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-0.65384614">
+            <state line="24" column="110" selection-start="1952" selection-end="1952" vertical-scroll-proportion="-0.43800697">
               <folding />
             </state>
           </provider>
@@ -195,8 +180,19 @@
       <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="221" selection-end="221" vertical-scroll-proportion="-5.8846154">
+            <state line="9" column="57" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/core.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="-0.65384614">
+              <folding>
+                <element signature="e#6#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,22 +225,22 @@
         <option value="$PROJECT_DIR$/lib/admin.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/site/public_interior.php" />
         <option value="$PROJECT_DIR$/css/screen.css" />
         <option value="$PROJECT_DIR$/protected/views/site/about.php" />
         <option value="$PROJECT_DIR$/lib/core.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/data/site.xml" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="6" />
-    <option name="y" value="55" />
+    <option name="y" value="57" />
     <option name="width" value="1855" />
-    <option name="height" value="1061" />
+    <option name="height" value="1059" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -341,10 +337,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/libonline" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -423,7 +419,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="55" width="1855" height="1061" extended-state="0" />
+    <frame x="6" y="57" width="1855" height="1059" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -431,7 +427,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19988894" sideWeight="0.67087156" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20210993" sideWeight="0.67087156" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -530,65 +526,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.5384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="37" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="66" selection-end="66" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="221" selection-end="221" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="34" selection-start="6205" selection-end="6205" vertical-scroll-proportion="-19.538462">
-          <folding />
-        </state>
+        <state line="7" column="28" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.5384614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="23" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.48901734">
-          <folding>
-            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386138884576" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.2307693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="341" selection-end="341" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
+        <state line="38" column="23" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.48901734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
@@ -600,28 +543,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="26" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
+        <state line="37" column="26" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="38" selection-start="2567" selection-end="2567" vertical-scroll-proportion="-0.019362187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="37" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.019653179" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="66" selection-end="66" vertical-scroll-proportion="0.078612715" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="341" selection-end="341" vertical-scroll-proportion="0.31445086" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="57" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="-30.153847">
+        <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="-0.65384614">
           <folding>
             <element signature="e#6#69#0" expanded="true" />
-            <element signature="e#520#604#0" expanded="true" />
-            <element signature="e#2299#2464#0" expanded="true" />
-            <element signature="e#7984#8066#0" expanded="true" />
-            <element signature="e#8085#8115#0" expanded="true" />
-            <element signature="e#10640#10679#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/site.xml">
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="60" selection-start="2258" selection-end="2258" vertical-scroll-proportion="0.309795">
+        <state line="24" column="110" selection-start="1952" selection-end="1952" vertical-scroll-proportion="-0.43800697">
           <folding />
         </state>
       </provider>
