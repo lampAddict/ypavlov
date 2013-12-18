@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\carousel\aqualeto5f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto6c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\_stuff\OpenServer\domains\yparch\images\public\aqualeto6f.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/public/aqualeto5.jpg" afterPath="$PROJECT_DIR$/images/public/aqualeto5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/public/aqualeto5c.jpg" afterPath="$PROJECT_DIR$/images/public/aqualeto5c.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/public/aqualeto5f.jpg" afterPath="$PROJECT_DIR$/images/public/aqualeto5f.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/contact.php" afterPath="$PROJECT_DIR$/protected/views/site/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/private_interior.php" afterPath="$PROJECT_DIR$/protected/views/site/private_interior.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/projects.php" afterPath="$PROJECT_DIR$/protected/views/site/projects.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/public_interior.php" afterPath="$PROJECT_DIR$/protected/views/site/public_interior.php" />
-    </list>
+    <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="" />
     <ignored path="yparch.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384848758980" ignored="false" />
@@ -168,7 +154,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="114" selection-start="5994" selection-end="5994" vertical-scroll-proportion="-0.004634994">
+            <state line="103" column="17" selection-start="8136" selection-end="8136" vertical-scroll-proportion="0.7045191">
               <folding />
             </state>
           </provider>
@@ -246,8 +232,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="57" />
+    <option name="x" value="15" />
+    <option name="y" value="12" />
     <option name="width" value="1855" />
     <option name="height" value="1059" />
   </component>
@@ -482,7 +468,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="57" width="1855" height="1059" extended-state="0" />
+    <frame x="15" y="12" width="1855" height="1059" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -667,7 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="114" selection-start="5994" selection-end="5994" vertical-scroll-proportion="-0.004634994">
+        <state line="103" column="17" selection-start="8136" selection-end="8136" vertical-scroll-proportion="0.7045191">
           <folding />
         </state>
       </provider>
