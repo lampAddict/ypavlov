@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="" />
+    <list default="true" id="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
+    </list>
     <ignored path="yparch.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384848758980" ignored="false" />
@@ -59,7 +61,7 @@
     <file path="$USER_HOME$/PhpstormProjects/pepen test/netcat/full.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383293915841" ignored="false" />
     <file path="/private_interior.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1383841011636" ignored="false" />
     <file path="/core.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1386161638119" ignored="false" />
-    <file path="/Dummy.txt" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387264738405" ignored="false" />
+    <file path="/Dummy.txt" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1388137814946" ignored="false" />
     <file path="/admin.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384948243086" ignored="false" />
     <file path="/menu.xml" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384351801092" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/pepen/style.css" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1384432513813" ignored="false" />
@@ -96,6 +98,9 @@
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/lib/Admin/Extension/Database/DatabaseInterface.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387186100148" ignored="false" />
     <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/ctl/User.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387186230064" ignored="false" />
     <file path="/contact.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1387281324231" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/admin/model/Bank.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1388140640282" ignored="false" />
+    <file path="/Bank.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1388140499971" ignored="false" />
+    <file path="$USER_HOME$/PhpstormProjects/NightVegas-server/_dev/jbfw-master/model/BankModel.php" changelist="7cc72ead-1e92-46d2-aa01-93ec0a02c8bc" time="1388141434273" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +132,7 @@
       <file leaf-file-name="projects.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/projects.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="326" selection-end="334" vertical-scroll-proportion="-8.5">
+            <state line="13" column="13" selection-start="326" selection-end="334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +141,7 @@
       <file leaf-file-name="private_interior.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="51" selection-start="1316" selection-end="1316" vertical-scroll-proportion="-25.5">
+            <state line="39" column="51" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +150,7 @@
       <file leaf-file-name="public_interior.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="26" selection-start="1125" selection-end="1125" vertical-scroll-proportion="-16.846153">
+            <state line="34" column="26" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,7 +159,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="17" selection-start="8136" selection-end="8136" vertical-scroll-proportion="0.7045191">
+            <state line="8" column="114" selection-start="523" selection-end="523" vertical-scroll-proportion="0.15758981">
               <folding />
             </state>
           </provider>
@@ -163,11 +168,8 @@
       <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="-5.8846154">
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-              </folding>
+            <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,7 +177,7 @@
       <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="221" selection-end="221" vertical-scroll-proportion="-5.8846154">
+            <state line="9" column="57" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,10 +186,8 @@
       <file leaf-file-name="core.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="-0.65384614">
-              <folding>
-                <element signature="e#6#69#0" expanded="true" />
-              </folding>
+            <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -225,8 +225,8 @@
         <option value="$PROJECT_DIR$/protected/views/site/projects.php" />
         <option value="$PROJECT_DIR$/protected/views/site/public_interior.php" />
         <option value="$PROJECT_DIR$/protected/views/site/private_interior.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/site/contact.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
       </list>
     </option>
   </component>
@@ -263,7 +263,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -380,6 +379,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,8 +388,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
     <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/libonline" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -468,7 +468,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="12" width="1855" height="1059" extended-state="0" />
+    <frame x="15" y="12" width="1855" height="1059" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -476,7 +476,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20210993" sideWeight="0.67087156" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20433092" sideWeight="0.67087156" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -592,16 +592,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="-0.65384614">
-          <folding>
-            <element signature="e#6#69#0" expanded="true" />
-          </folding>
+        <state line="258" column="28" selection-start="9657" selection-end="9657" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="221" selection-end="221" vertical-scroll-proportion="-5.8846154">
+        <state line="9" column="57" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -615,45 +613,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/projects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="326" selection-end="334" vertical-scroll-proportion="-8.5">
+        <state line="13" column="13" selection-start="326" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/public_interior.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="26" selection-start="1125" selection-end="1125" vertical-scroll-proportion="-16.846153">
+        <state line="34" column="26" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/private_interior.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="51" selection-start="1316" selection-end="1316" vertical-scroll-proportion="-25.5">
+        <state line="39" column="51" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/contact~.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="-5.8846154">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-          </folding>
+        <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="17" selection-start="8136" selection-end="8136" vertical-scroll-proportion="0.7045191">
+        <state line="8" column="114" selection-start="523" selection-end="523" vertical-scroll-proportion="0.15758981">
           <folding />
         </state>
       </provider>

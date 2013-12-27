@@ -7,7 +7,6 @@
                         array('name'=>'aqualeto2f.jpg','link'=>'/index.php?r=site/public_interior&show=aqualeto'),
                         array('name'=>'aqualeto3f.jpg','link'=>'/index.php?r=site/public_interior&show=aqualeto'),
                         array('name'=>'aqualeto4f.jpg','link'=>'/index.php?r=site/public_interior&show=aqualeto'),
-                        array('name'=>'aqualeto5f.jpg','link'=>'/index.php?r=site/public_interior&show=aqualeto'),
                         array('name'=>'aqualeto6f.jpg','link'=>'/index.php?r=site/public_interior&show=aqualeto'),
 
                         array('name'=>'arub1f.jpg','link'=>'/index.php?r=site/private_interior&show=arub'),
